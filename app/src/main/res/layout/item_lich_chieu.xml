@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    android:background="#1603DAC5">
+    <TextView
+        android:id="@+id/thoigianchieu"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thoi gian"
+        android:textSize="24dp"
+        android:gravity="center"/>
+    <TextView
+        android:id="@+id/tenRap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ten rap"
+        android:textSize="22dp"
+        />
+    <TextView
+        android:id="@+id/dia_chi"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Dia chi"
+        android:textSize="22dp"
+        />
+
+
+</LinearLayout>
