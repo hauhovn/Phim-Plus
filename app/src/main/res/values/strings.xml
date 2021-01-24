@@ -5,8 +5,10 @@
     <string name="account">Account</string>
     <string name="notification">Notification</string>
     <string name="title_activity_detail">DetailActivity</string>
-    <string name="tab_text_1">Tab 1</string>
-    <string name="tab_text_2">Tab 2</string>
-    <string name="tab_text_3">Tab 3</string>
-    <string name="background_movie_detail_link">https://vhproject.000webhostapp.com/images/background/movie_detail_background.jpg</string>
+    <string name="tab_text_1">Thông Tin</string>
+    <string name="tab_text_2">Lịch Chiếu</string>
+    <string name="tab_text_3">Bình Luận</string>
+    <string name="vnd">VND</string>
+    <string name="loading">Loading . . .</string>
+
 </resources>

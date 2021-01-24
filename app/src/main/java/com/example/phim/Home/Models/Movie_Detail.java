@@ -25,6 +25,12 @@ public class Movie_Detail {
     @SerializedName("opening_day")
     @Expose
     private String openingDay;
+    @SerializedName("rate")
+    @Expose
+    private String rate;
+    @SerializedName("age_limit")
+    @Expose
+    private String ageLimit;
 
     public String getDirector() {
         return director;
@@ -80,6 +86,22 @@ public class Movie_Detail {
 
     public void setOpeningDay(String openingDay) {
         this.openingDay = openingDay;
+    }
+
+    public String getRate() {
+        return rate;
+    }
+
+    public void setRate(String rate) {
+        this.rate = rate;
+    }
+
+    public String getAgeLimit() {
+        return ageLimit;
+    }
+
+    public void setAgeLimit(String ageLimit) {
+        this.ageLimit = ageLimit;
     }
 
 }

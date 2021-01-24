@@ -25,9 +25,9 @@
             android:transitionName="sharedName" />
         <ImageView
             android:id="@+id/movie_trailer_img"
-            android:layout_width="125dp"
-            android:layout_height="20dp"
-            android:layout_marginLeft="20dp"
+            android:layout_width="128dp"
+            android:layout_height="50dp"
+            android:layout_marginLeft="17dp"
             android:layout_marginTop="2dp"
             android:scaleType="centerCrop"
             android:layout_below="@+id/movie_detail_img" />
@@ -39,8 +39,9 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/img_hinh_hen"
-            android:layout_marginLeft="3dp"
+            android:layout_marginLeft="8dp"
             android:layout_marginTop="2dp"
+            android:textStyle="bold"
             android:layout_toRightOf="@+id/movie_detail_img"
             android:text="Tiệc Trăng Máu"
             android:textColor="@android:color/holo_red_light"
@@ -56,7 +57,6 @@
             android:layout_marginLeft="7dp"
             android:layout_marginTop="1dp"
             android:layout_toRightOf="@+id/txt34"
-            android:text="Nguyễn Quang Dũng"
             android:textSize="14sp" />
 
         <TextView
@@ -64,10 +64,10 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/movie_detail_txt_title"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="2dp"
             android:layout_toRightOf="@+id/movie_detail_img"
-            android:text="Đạo diễn: "
+            android:text= "@string/directors"
             android:textSize="14sp" />
 
         <TextView
@@ -77,11 +77,68 @@
             android:layout_below="@id/movie_detail_txt_title"
             android:layout_alignParentStart="true"
             android:layout_marginStart="149dp"
-            android:layout_marginLeft="4dp"
+            android:layout_marginLeft="5dp"
             android:layout_marginTop="23dp"
             android:layout_toRightOf="@+id/movie_detail_img"
-            android:text="Thể loại: "
+            android:text="@string/movie_type"
             android:textSize="14sp" />
+        <TextView
+            android:id="@+id/txt35"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txt34"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/movie_detail_img"
+            android:text="@string/age_limit"
+            android:textSize="14sp" />
+        <TextView
+            android:id="@+id/movie_detail_age_limit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:layout_below="@+id/txt34"
+            android:layout_toRightOf="@+id/txt35"/>
+        <TextView
+            android:id="@+id/tx37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt35"
+            android:layout_toRightOf="@+id/movie_detail_img"
+            android:layout_marginLeft="4dp"
+            android:text="@string/length"/>
+        <TextView
+            android:id="@+id/thoi_luong_phim"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/txt35"
+            android:layout_marginLeft="2dp"
+            android:layout_toRightOf="@+id/tx37"/>
+        <TextView
+            android:id="@+id/txt37"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/tx37"
+            android:layout_alignParentStart="true"
+            android:layout_marginStart="149dp"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="0dp"
+            android:layout_toRightOf="@+id/movie_detail_img"
+            android:text="@string/rate"
+            android:textSize="14sp" />
+        <RatingBar
+            android:id="@+id/ratingbar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:numStars="5"
+            android:stepSize="1.0"
+            style="@style/Widget.AppCompat.RatingBar.Small"
+            android:layout_below="@+id/tx37"
+            android:layout_toRightOf="@+id/txt37"
+            android:layout_marginLeft="5dp"
+            android:layout_marginTop="2dp"/>
         <TextView
             android:id="@+id/gia_ban"
             android:textStyle="bold"
@@ -102,7 +159,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_below="@id/movie_detail_txt_title"
-            android:layout_marginLeft="1dp"
+            android:layout_marginLeft="3dp"
             android:layout_marginTop="23dp"
             android:layout_toRightOf="@+id/txt34"
             android:text="18+"
@@ -114,11 +171,11 @@
             android:layout_width="match_parent"
             android:layout_marginLeft="10dp"
             android:layout_marginRight="10dp"
-            android:layout_height="120dp"
-            android:background="#C9E4B012"/>
+            android:layout_height="115dp"
+            android:background="#682E2C25"/>
         <ScrollView
             android:layout_width="match_parent"
-            android:layout_height="100dp"
+            android:layout_height="80dp"
             android:layout_above="@+id/btnMuaVe"
             android:layout_below="@+id/txtTheLoai"
             android:layout_marginLeft="10dp"
@@ -148,11 +205,10 @@
             android:background="@drawable/button_custom"
             android:paddingTop="15dp"
             android:paddingBottom="15dp"
-            android:text="Mua Vé"
+            android:text="@string/booking"
             android:textAllCaps="false"
             android:textColor="#fff"
             android:textSize="18sp" />
-
 
     </RelativeLayout>
 

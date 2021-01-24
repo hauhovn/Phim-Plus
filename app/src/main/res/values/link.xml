@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="link_icon_trailer">https://vhproject.000webhostapp.com/images/trailer/icon_youtube_trailer.png</string>
+    <string name="background_movie_detail_link">https://vhproject.000webhostapp.com/images/background/movie_detail_background.jpg</string>
+</resources>

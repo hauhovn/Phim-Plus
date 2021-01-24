@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="age_limit">Giới hạn độ tuổi: </string>
+    <string name="directors">Đạo diễn: </string>
+    <string name="movie_type">Thể loại: </string>
+    <string name="rate">Đánh giá: </string>
+    <string name="length">Thời lượng: </string>
+    <string name="price">Giá vé: </string>
+    <string name="booking">Đặt vé: </string>
+</resources>

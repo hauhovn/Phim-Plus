@@ -81,7 +81,7 @@ public class HomeFragment extends Fragment implements MovieAdapter.OnMovieListen
         getMovieList(1,2,mRecyclerView_SapChieu);
         getMovieList(1,2,mRecyclerView_DangChieu);
         //
-        dialog_loading.dismiss();
+
 
         return mRootView;
     }
@@ -118,6 +118,7 @@ public class HomeFragment extends Fragment implements MovieAdapter.OnMovieListen
                 linearLayoutManager.setOrientation(LinearLayoutManager.HORIZONTAL);
                 mRecyclerView.setLayoutManager(linearLayoutManager);
                 mRecyclerView.setAdapter(adapter);
+                dialog_loading.dismiss();
             }
 
             @Override
